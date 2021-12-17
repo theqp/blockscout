@@ -557,7 +557,7 @@ defmodule Explorer.Chain.Import.Runner.InternalTransactions do
     default_set = [
       created_contract_address_hash: first_trace.created_contract_address_hash,
       error: first_trace.error,
-      status: first_trace.status,
+      # status: first_trace.status,
       updated_at: timestamps.updated_at
     ]
 
